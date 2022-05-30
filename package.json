@@ -2,6 +2,7 @@
     "name": "@welovedevs/react-ultimate-resume",
     "version": "1.2.9",
     "description": "Developer profile for W3D",
+    "homepage": "https://goodshort.github.io/react-ultimate-resume/",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "types": "dist/cjs/package/index.d.ts",
