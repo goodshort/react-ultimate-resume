@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ultimate-resume/static/css/main.b08180d8.css",
-    "main.js": "/react-ultimate-resume/static/js/main.de1e1c8b.js",
+    "main.js": "/react-ultimate-resume/static/js/main.c7bdbcf4.js",
     "static/media/AvenirNext-UltraLightItalic.ttf": "/react-ultimate-resume/static/media/AvenirNext-UltraLightItalic.102e5d4b73dca370d74f.ttf",
     "static/media/AvenirNext-UltraLight.ttf": "/react-ultimate-resume/static/media/AvenirNext-UltraLight.cc517cbd583107e2dcf6.ttf",
     "static/media/AvenirNext-Regular.ttf": "/react-ultimate-resume/static/media/AvenirNext-Regular.23cf42ac3d6a08ceb033.ttf",
@@ -53,10 +53,10 @@
     "static/media/move_list.svg": "/react-ultimate-resume/static/media/move_list.8245d15422a083b6f392fd190f328614.svg",
     "static/media/add.svg": "/react-ultimate-resume/static/media/add.3b33fbbe8793541d32f7e02377f06a06.svg",
     "main.b08180d8.css.map": "/react-ultimate-resume/static/css/main.b08180d8.css.map",
-    "main.de1e1c8b.js.map": "/react-ultimate-resume/static/js/main.de1e1c8b.js.map"
+    "main.c7bdbcf4.js.map": "/react-ultimate-resume/static/js/main.c7bdbcf4.js.map"
   },
   "entrypoints": [
     "static/css/main.b08180d8.css",
-    "static/js/main.de1e1c8b.js"
+    "static/js/main.c7bdbcf4.js"
   ]
 }
