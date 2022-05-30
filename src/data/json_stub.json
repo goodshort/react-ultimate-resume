@@ -1,108 +1,129 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Adrien Biencourt",
+        "label": "Cloud Solution Architect",
+        "picture": "https://pbs.twimg.com/profile_images/1027153532124835841/HUzoX0Q6_400x400.jpg",
+        "email": "adrien.goodshort@gmail.com",
+        "phone": "",
+        "website": "http://goodshort.me",
+        "summary": "Aspiring Software Developer",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "",
+            "postalCode": "",
+            "city": "Athenry",
+            "countryCode": "IE",
+            "region": "Galway",
+            "name": "Athenry"
         },
         "profiles": [
             {
-                "network": "twitter",
-                "username": "@john"
+                "network": "Connect with me",
+                "url": "https://goodshort.me/",
+                "id": "05f0f688-6fa1-4559-bc37-9e34636de0a4"
             },
-            {
-                "network": "Portfolio",
-                "url": "https://myawesome.portfolio.rocket.fr"
-            },
-            {
-                "network": "codingame",
-                "username": "ed3ee82f9630e99db32dec093b2ca07a0368002"
-            }, {
-                "network": "github",
-                "username": "clementdevos"
-            },
+            { "network": "github", "username": "goodshort", "id": "fd13fcea-aab7-455a-b20b-536d6ecbe657" },
             {
                 "network": "linkedin",
-                "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/"
+                "url": "https://www.linkedin.com/in/adrien-biencourt/",
+                "id": "c08b7296-f251-4224-aad1-4d21b29ad5e3"
             }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 0,
+            "id": "f7fd63d9-7503-49dd-895f-c41801acd2d7",
+            "name": "Microsoft",
+            "position": "Cloud Solution Architect",
+            "place": { "name": "Dublin, Ireland" },
+            "startDate": "2021-08-29",
+            "summary": "Onboarding customers to the Azure Cloud\n- Cloud adoption plan, application design, landing zone\n- Discussing best solutions based on needs/requirements\n- Presenting Azure services and solutions to customers\n- Follow customers journeys to the Azure cloud\n- Azure Cloud Solution Architect Certified",
+            "location": "Dublin, Ireland",
+            "stillEmployed": true
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 1,
+            "id": "78e7ff6f-ab44-4e1e-90b2-07a506580e17",
+            "name": "MathWorks",
+            "position": "Installation & Licensing Technician",
+            "place": { "name": "Galway, Ireland" },
+            "startDate": "2018-10-29",
+            "endDate": "2021-08-01",
+            "summary": "Dedicated agent for the deployment of MATLAB within universities and key accounts\n- Working closely with customers’ IT to install/deploy MATLAB across their facilities\n- Discuss deployment possibilities and find the best solution for their needs\n- Develop webapps and improve internal processes for the team",
+            "location": "Galway, Ireland",
+            "stillEmployed": false
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "index": 2,
+            "id": "7ea37034-0098-4023-b5fa-391c486cfadd",
+            "name": "Oracle",
+            "position": "Dedicated Helpdesk Agent",
+            "place": { "name": "Galway, Ireland" },
+            "startDate": "2018-01-01",
+            "endDate": "2018-10-01",
+            "summary": "Louvre Dedicated agent for the IT support of 800+ hotels across Europe\n- Accessing servers, interfaces or databases for troubleshoot purposes\n- Monitoring the Cloud environment and proactively resolving issues\n- Working with other teams to provide clients' needs \n- Opera PMS & RES 3700 configuration and assistance\n- Remote installation and configuration of workstation",
+            "location": "Galway, Ireland",
+            "stillEmployed": false
+        },
+        {
+            "index": 3,
+            "id": "42788b4f-81e9-4f3b-9795-ecaf072804ff",
+            "name": "Voxpro",
+            "position": "Google Support & Sales",
+            "place": { "name": "Cork, Ireland" },
+            "startDate": "2016-10-29",
+            "endDate": "2018-01-01",
+            "summary": "As a Google agent:\n- Providing Beautiful Customer Experience\n- Upselling and assisting the setup Google services\n- DNS, email verification tools\n\n\nAs a Voxpronian:\n- Working on Process Improvement Workshops\n- Working across Voxpro’s contract\n- Taking part of our Monthly Business Reviews\n- Team Improvement Processes",
+            "location": "Cork, Ireland"
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
+            "organization": "CoderDojo",
             "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "website": "https://zen.coderdojo.com/dojos/ie/galway/galway-city-nuig",
+            "startDate": "2019-09-01",
+            "endDate": "2022-01-01",
+            "summary": "Teaching MATLAB basics to 10+ years old"
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
+            "position": 0,
+            "institution": "GMIT",
+            "area": "Drone and Smart Agri Sensors",
+            "studyType": "Certification",
             "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "endDate": "2022-01-01",
+            "id": "03d00088-3841-484c-8091-0f105d5385b8"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
+            "position": 1,
+            "institution": "GMIT",
+            "area": "Software Development",
+            "studyType": "Higher Diploma",
             "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
+            "endDate": "2021-01-01",
+            "id": "fa689869-e41c-4fbe-8636-83187f9aeaf4"
+        },
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "position": 2,
+            "id": "396de3b6-3ad3-477b-97f9-beb75ba8157f",
+            "institution": "Centria, University of Applied Sciences",
+            "studyType": "Bachelor",
+            "area": "Industrial Management",
+            "endDate": "2016-01-01"
+        },
+        {
+            "position": 3,
+            "id": "154b60d5-573e-41cf-8e9a-1d20cf09c93b",
+            "institution": "Université D'Artois",
+            "endDate": "2013-01-01",
+            "studyType": "Associate",
+            "area": "Mechanical Engineering"
         }
     ],
+    "awards": [{ "title": "Award", "date": "2014-11-01", "awarder": "Company", "summary": "There is no spoon." }],
     "publications": [
         {
             "name": "Publication",
@@ -113,197 +134,148 @@
         }
     ],
     "skills": [
-        {
-            "name": "React",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
+        { "name": "Cloud Computing", "index": 0, "value": 90, "id": "28d9deea-a8db-48e6-aa07-48cdffcdc291" },
+        { "name": "Docker", "index": 1, "value": 80, "id": "8d955988-b7b1-4b3a-a641-afecdd909319" },
+        { "name": "Java", "index": 2, "value": 50, "id": "f25f3ddc-cfd1-4a33-b6b1-005bb4d6a66c" },
+        { "name": "Git", "index": 3, "value": 90, "id": "a42421a6-503a-4107-a7d0-e51693b36184" },
+        { "name": "Matlab", "index": 4, "value": 50, "id": "b03d92b3-06cf-4269-aac6-b9792cfa003d" },
+        { "name": "Unix Server", "index": 5, "value": 80, "id": "7670f192-46eb-4afc-8146-84926d9d9e76" }
     ],
     "languages": [
-        { "language": "English", "value": 100, "fluency": "Native speaker" },
-        { "language": "Italien", "value": 15, "fluency": "Native speaker" }
+        {
+            "language": "French",
+            "value": 100,
+            "fluency": "Native speaker",
+            "id": "97a82830-64cb-439f-81f2-d033a67bb01d",
+            "index": 0
+        },
+        {
+            "language": "English",
+            "value": 90,
+            "fluency": "Native speaker",
+            "id": "db79948c-b1d4-4ccc-adf2-48cd26f8187b",
+            "index": 1
+        }
     ],
     "interests": [
         {
-            "name": "France europe gif by nike football",
-            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-            "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
-                "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
+            "name": "FPV Drones",
+            "gifUrl": "https://media.giphy.com/media/oo1sfKNedS5PuYJsA4/giphy.gif",
+            "id": "0c4a8cbf-e981-45da-95ca-86e26169e5f9",
+            "index": 0
         },
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "name": "Smart Home",
+            "gifUrl": "https://media.giphy.com/media/hluswkP4v8WSk/giphy.gif",
+            "id": "54ddf6d5-dbda-4a17-8e64-5346864de907",
+            "index": 1
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-        }
-    ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
-        },
-        {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
-        },
-        {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
+            "name": "Motorcycle",
+            "gifUrl": "https://media.giphy.com/media/9rlY0fj2SVYCjSj0WY/giphy.gif",
+            "id": "60c08514-f8c1-45b0-b37b-994e3fa3eff5",
+            "index": 2
         },
         {
             "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-            "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
-        },
+            "id": "7c9a71ea-5f91-4493-834f-bd2b26ce0966",
+            "gifUrl": "https://media.giphy.com/media/1AeAt980lm4GUndEG6/giphy.gif",
+            "name": "Dog"
+        }
+    ],
+    "projects": [
         {
             "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
+            "date": "2022-04-30T23:00:00.000Z",
+            "description": "As part of my certification in Drone and Smart Agri Sensors, I have decided to build my own drone and fully deploy and host drone imagery solutions at home.\n- I have build a drone (Holybro X500) running iNav with a gimbal camera\n- Selfhosted WebODM to analyse and process data\n- Selfhosted DroneDB to store imagery",
             "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
+            "images": [],
+            "link": "https://dronedb.goodshort.me/r/public",
+            "name": "Drone analysis system",
+            "endDate": "2022-05-01"
         }
     ],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
-        },
-        "dreamJob": {
-            "locations": [{ "name": "Valenciennes, France" }, { "name": "Lille, France" }, { "name": "Paris,France" }],
-            "remoteFrequency": "regularly"
+            "visaSponsorship": false,
+            "personalDescription": "As an Azure Cloud Solution Architect at Microsoft ☁️, I am talking daily with customers through their cloud adoption plans 📅, applications design, cloud management strategies or even monitoring solutions 🔎. I make sure the Azure cloud is used according to needs and requirements 📈."
         },
         "currentJob": {
-            "issues": { "z": true, "boring_team": true }
+            "issues": { "z": true, "boring_team": true, "no_tech": true, "other": null, "no_responsabilities": true }
         },
-        "education": { "studiesLevel": null },
+        "education": { "studiesLevel": 5 },
         "work": {
-            "contractTypes": ["permanent", "freelance", "internship"],
-            "codingYears": 0,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
+            "contractTypes": ["permanent"],
+            "codingYears": 3,
+            "codingReason": "Creating great tools to empower others",
+            "searchState": "dreamjobOnly",
             "experienceYears": 0,
-            "codeExperienceYears": null,
-            "otherExperienceYears": null
+            "codeExperienceYears": 1,
+            "otherExperienceYears": 6
         },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Technology, drones and environment",
+        "dreamJob": { "locations": [] }
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "url": "https://pbs.twimg.com/profile_banners/1536087728/1492258318/1500x500",
             "alt": "Default Banner"
         },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
+            { "type": "experiences", "variant": 0 },
             { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
             { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
+            { "type": "projects", "variant": 4 },
             { "type": "interestedBy", "variant": 3 },
+            { "type": "gifs", "variant": 0 },
             { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 },
-            { "type": "social", "variant": 4 }
+            { "type": "social", "variant": 4 },
+            { "type": "dreamjob", "variant": 4 },
+            { "type": "soundtrack", "variant": 4 }
         ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+        "fields": { "work": { "customDateFormat": "YYYY" } },
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#f0f4f2",
+                    "100": "#e1e9e4",
+                    "200": "#c2d3ca",
+                    "300": "#a4bdaf",
+                    "400": "#85a795",
+                    "500": "#67917a",
+                    "600": "#527462",
+                    "700": "#3e5749",
+                    "800": "#293a31",
+                    "900": "#151d18",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#e8e6e6",
+                    "100": "#d1cdce",
+                    "200": "#a29b9d",
+                    "300": "#74686b",
+                    "400": "#45363a",
+                    "500": "#170409",
+                    "600": "#120307",
+                    "700": "#0e0205",
+                    "800": "#090204",
+                    "900": "#050102",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#f8f7e6",
+                    "100": "#f1efcd",
+                    "200": "#e3df9a",
+                    "300": "#d4cf68",
+                    "400": "#c6bf35",
+                    "500": "#b8af03",
+                    "600": "#938c02",
+                    "700": "#6e6902",
+                    "800": "#4a4601",
+                    "900": "#252301",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }
