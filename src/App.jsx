@@ -28,12 +28,10 @@ function App() {
     const classes = useStyles();
     const [data, setData] = useState(omit(JsonStub, 'resumeCustomization'));
 
-    const onEdit = useCallback((newData) => setData(mergeWith(cloneDeep(data), newData, mergeFunction)), [
-        JSON.stringify(data)
-    ]);
+    const onEdit = useCallback((newData) => setData(mergeWith(cloneDeep(data), newData, mergeFunction)), [data]);
     const [customization, setCustomization] = useState(JsonStub.resumeCustomization || {});
 
-    const onCustomizationChanged = useCallback(setCustomization, [data]);
+    const onCustomizationChanged = useCallback(setCustomization, [setCustomization]);
 
     const handleClick = useCallback(async () => {
         // eslint-disable-next-line no-undef
@@ -45,7 +43,7 @@ function App() {
             `${`Resume-${data?.basics?.name || 'Developer'}`.replace(' ', '-')}.json`,
             'text/plain; charset=utf-8'
         );
-    }, [JSON.stringify(data), JSON.stringify(customization)]);
+    }, [customization, data]);
 
     return (
         <DeveloperProfile
