@@ -1,8 +1,8 @@
-FROM node:7 
+FROM node
 WORKDIR /app 
 COPY package.json /app 
 COPY yarn.lock /app
 RUN yarn install 
 COPY . /app 
-CMD npm run develop 
-EXPOSE 8000
+CMD yarn start
+EXPOSE 3000
