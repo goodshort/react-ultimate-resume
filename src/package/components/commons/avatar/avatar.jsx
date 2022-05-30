@@ -10,7 +10,7 @@ import { styles } from './avatar_styles';
 
 const useStyles = createUseStyles(styles);
 
-const DEFAULT_IMAGE = 'https://pbs.twimg.com/profile_images/1027153532124835841/HUzoX0Q6_400x400.jpg';
+const DEFAULT_IMAGE = 'https://i.pravatar.cc/250';
 const AvatarComponent = ({ src, displayedName }) => {
     const classes = useStyles();
     const [receivedGlobalClasses] = useReceivedGlobalClasses('banner.avatar');
